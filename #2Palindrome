@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+
+int sum(int a, int b){ // taking two parameters 
+    int sum = a+b;
+    return sum;
+}
+int diff(int a, int b){
+    int diff = a-b;
+    return diff;
+}
+int main(){
+
+
+ 
+  
+
+    // int s = sum(2,4); // value is not passed = Arguments means value
+    // cout << s;
+
+    int d = diff(70,50);
+    cout << "diff is: " << d;
+
+    return 0;
+    
+} 
+
+
+
